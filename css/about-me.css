@@ -1,0 +1,98 @@
+/* ================================start styling About Me================================ */
+.about-container{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 7rem;
+    position: relative;
+   
+}
+/* title  */
+.about-container .title-box .title::after{
+    width: 400px;
+
+}
+/* list */
+.about-wrapper{
+display: flex;
+justify-content: space-between;
+gap: 3rem;
+align-items: center;
+}
+.about-wrapper .about-section{
+    width: 50%;
+}
+/* left section */
+.about-wrapper .left-section{
+    
+}
+.about-wrapper .left-section .about-description{
+color: gray;
+margin-bottom: 1.5rem;
+}
+.about-wrapper .left-section .About-button{
+border: 1px solid #c778dd;
+padding: 8px 12px;
+display: inline-block;
+margin-top: 2rem;
+transition: all 0.2s;
+&:hover{
+      background-color: #c778dd20;
+}
+}
+
+/* right section */
+.about-wrapper .right-section{
+    text-align: right;
+    position: relative;
+    margin-top: -5%;
+}
+.about-wrapper .right-section .about-daniel-img{
+width: 60%;
+border-bottom: #c778dd 1px solid;
+}
+.about-wrapper .right-section .top-dots{
+position: absolute;
+top: 40px;
+left: 200px;
+}
+.about-wrapper .right-section .bottom-dots{
+position: absolute;
+bottom: 40px;
+right: 20px;
+}
+/* ================================start styling Skills================================ */
+.skills-container{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 7rem;
+    margin-bottom: 10rem;
+}
+.skills-container .title-box .title::after{
+    width: 300px;
+
+}
+/* <common-folder> */
+/* start styling list skills */
+.skills-list-wrapper{
+display: flex;
+gap: 1rem;
+}
+.skills-list-wrapper .skills-column{
+width: 100%;
+gap: 1rem;
+}
+.skills-list-wrapper .skills-column .skills-box{
+border: 1px solid gray;
+margin-bottom: 1rem;
+}
+.skills-list-wrapper .skills-column .skills-box .box-header{
+border-bottom: 1px solid gray;
+padding: 0.5rem;
+}
+.skills-list-wrapper .skills-column .skills-box .box-content{
+color: gray;
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+padding: 0.5rem;
+}

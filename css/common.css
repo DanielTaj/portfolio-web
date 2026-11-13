@@ -1,0 +1,118 @@
+.title-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.title-box .title {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  position: relative;
+}
+/* purple line */
+.title-box .title::after {
+  content: "";
+  width: 300px;
+  height: 1px;
+  background-color: #c778dd;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 108%;
+}
+.title-box .title .title-highlight {
+  color: #c778dd;
+}
+/* ================================start styling header================================ */
+.main-header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: inherit;
+  padding: 30px 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: #282c33;
+}
+.main-header .logo-wrapper {
+  display: flex;
+  gap: 6px;
+}
+.main-header .nav-list {
+  display: flex;
+  gap: 20px;
+}
+.main-header .nav-list .list-items {
+  padding: 0 0.5rem;
+  color: grey;
+  transition: all 0.2s;
+}
+.main-header .nav-list .list-items .sharp-sign {
+  color: #c778dd;
+}
+/* active link */
+.main-header .nav-list .list-items.active {
+  color: white;
+}
+/* hover effect */
+.main-header .nav-list .list-items:hover {
+  color: white;
+}
+
+/* ===============================Fixed Social Icons================================= */
+.social-container{
+position: fixed;
+top: 0;
+z-index: 1000;
+left: 40px;
+}
+.social-container .social-line{
+width: 1px;
+height: 150px;
+background-color: gray;
+margin-bottom: 10px;
+}
+.social-container .social-list{
+display: flex;
+flex-direction: column;
+gap: 6px;
+left: 50%;
+transform: translateX(-50%);
+}
+.social-container .social-list .social-link{
+font-size: 1.3rem;
+color: gray;
+transition: all 0.2s;
+&:hover{
+    color: white;
+}
+}
+/* ================================start styling Footer================================ */
+.main-footer{
+    width: 70%;
+    margin: 0 auto;
+   padding: 2rem 0;
+}
+.main-footer .logo-wrapper{
+display: flex;
+gap: 10px;
+margin-bottom: 1rem;
+align-items: center;
+display: inline-flex;
+}
+.main-footer .logo-wrapper .gmail-footer{
+color: gray;
+font-weight: 200;
+}
+.main-footer .copy-right-text{
+color: gray;
+text-align: center;
+margin-top: 3rem;
+}
+.main-footer .copy-right-text .footer-link{
+    text-decoration: underline;
+}

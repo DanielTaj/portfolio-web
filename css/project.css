@@ -1,0 +1,72 @@
+/* ================================start styling project================================ */
+.project-container {
+  width: 70%;
+ margin: 0 auto;
+  position: relative;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+/* title */
+/* <common-folder> */
+.project-container .title-box .title::after{
+width: 500px;
+}
+.project-container .title-box .title .title-highlight {
+  color: #c778dd;
+}
+.project-container .title-box .project-view-all {
+  transition: all 0.2s;
+}
+.project-container .title-box .project-view-all:hover {
+  color: #c778dd;
+}
+/* project list */
+.project-list {
+  display: flex;
+  justify-content: space-between;
+}
+.project-list .project-card {
+  border: 1px solid gray;
+}
+.project-list .project-card .project-img {
+  display: block;
+width: 100%;
+aspect-ratio: 16/9;
+object-fit: cover;
+}
+.project-list .project-card .project-technology {
+  border: 1px solid gray;
+  color: grey;
+  padding: 0.5rem;
+}
+.project-list .project-card .project-info-box {
+  padding: 1rem;
+}
+.project-list .project-card .project-info-box .project-name {
+    font-weight: 500;
+}
+.project-list .project-card .project-info-box .project-text {
+  margin: 1rem 0;
+  color: gray;
+  font-weight: 200;
+}
+.project-list .project-card .project-info-box .project-actions {
+    display: flex;
+    gap: 0.8rem;
+   
+}
+.project-list .project-card .project-info-box .project-actions .project-link {
+     border: 1px solid #c778dd;
+     padding: 0.3rem 1rem;
+     transition: all 0.2s;
+}
+.project-list .project-card .project-info-box .project-actions .project-link:hover {
+    background-color: #c778dd20;
+}
+.project-list .project-card .project-info-box .project-actions .project-link.project-link-2{
+border: 1px solid gray;
+}
+.project-list .project-card .project-info-box .project-actions .project-link.project-link-2:hover{
+    background-color: rgba(128, 128, 128, 0.208);
+      border: 1px solid #c778dd;
+}
